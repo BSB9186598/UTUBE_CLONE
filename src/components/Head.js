@@ -6,7 +6,6 @@ import img3 from "../images/Jack.png";
 import img4 from "../images/search.png";
 import { useDispatch, useSelector } from "react-redux";
 import { toggleMenu } from "../utils/appSlice";
-import useSelection from "antd/es/table/hooks/useSelection";
 import { cacheResults } from "../utils/searchSlice";
 
 const Head = () => {
